@@ -24,7 +24,7 @@ export function luoguUserMentionsHTML() {
       },
       luoguUserMentionsGetUid() {
         var uid = this.resume()
-        this.tag(`<a href="https://www.luogu.com.cn/user/${uid}" data-uid="${uid}" />`)
+        this.tag(`<a href="https://www.luogu.com.cn/user/${uid}" data-uid="${uid}">`)
         this.tag(username)
       },
       luoguUserMentions() {
