@@ -1,0 +1,36 @@
+{
+  "name": "micromark-extension-luogu-user-mentions",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build --clean && tsc --build && type-coverage && micromark-build"
+  },
+  "keywords": [],
+  "author": "Imken Luo <me@imken.moe>",
+  "license": "AGPL-3.0-or-later",
+  "exports": {
+    "development": "./dev/index.js",
+    "default": "./index.js"
+  },
+  "devDependencies": {
+    "devlop": "^1.1.0",
+    "micromark": "^4.0.0",
+    "micromark-build": "^2.0.2",
+    "typescript": "^5.2.2",
+    "type-coverage": "^2.0.0"
+  },
+  "dependencies": {
+    "micromark-util-chunked": "^2.0.0",
+    "micromark-util-classify-character": "^2.0.0",
+    "micromark-util-resolve-all": "^2.0.0",
+    "micromark-util-symbol": "^2.0.0",
+    "micromark-util-types": "^2.0.0"
+  },
+  "files": [
+    "dev/",
+    "lib/",
+    "index.d.ts",
+    "index.js"
+  ]
+}
