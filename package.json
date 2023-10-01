@@ -4,7 +4,8 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "build": "tsc --build --clean && tsc --build && type-coverage && micromark-build"
+    "build": "tsc --build --clean && tsc --build && type-coverage && micromark-build",
+    "prepare": "pnpm build"
   },
   "keywords": [],
   "author": "Imken Luo <me@imken.moe>",
